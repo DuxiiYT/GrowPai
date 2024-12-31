@@ -38,7 +38,7 @@ Sends text packet with selected type to server.
 Example:
 ```lua
 -- Sends respawn packet to server
-SendPacket(2, "action|respawn")
+SendPacket(2, "action|input\n|text|hello")
 ```
 
 ## SendPacketRaw
@@ -153,7 +153,7 @@ Returns table of [WorldObjects](#worldobject)
 
 Example:
 ```lua
--- Logs current worlds objects item id's
+-- Logs current worlds floating item id's
 for _,object in pairs(GetObjects()) do
 	log(object.id)
 end
@@ -230,7 +230,7 @@ AddCallback("Hook", "OnVarlist", hook)
 
 -- Blocks your chat
 function hook(type, packet)
-	if packet:find("actiont|input\n|text") then
+	if packet:find("action|input\n|text") then
 		return true
 	end
 end
@@ -250,25 +250,6 @@ AddCallback("Hook", "OnRawPacket", hook)
 function hook(packet)
 	if packet.type == 0 then
 		return true
-	end
-end
-
-AddCallback("Hook", "OnIncomingRawPacket", hook)
-
-----------------------------------------
--- Override your packet_state
-function hook(packet)
-	if packet.type == 0 then
-		packet.flags = 0 --remove all localplayer state flags
-	end
-end
-
-AddCallback("Hook", "OnRawPacket", hook)
-
--- Override people packet_state
-function hook(packet)
-	if packet.type == 0 then
-		packet.flags = 0 --remove all people state flags
 	end
 end
 
@@ -378,24 +359,8 @@ Example:
 local payload = [[{
     "content": "",
     "embeds": [{
-        "title": "ytta",
-        "description": "ytta :flushed:",
-        "url": "https://avatarfiles.alphacoders.com/334/334449.png",
-        "color": 5814783,
-        "fields": [{
-            "name": "Introduction",
-            "value": "My name is Walter Hartwell White. I live at 308 Negra Arroyo Lane Albuquerque New Mexico 87104. This is my confession."
-        }],
-        "author": {
-            "name": "kontol",
-            "url": "https://avatarfiles.alphacoders.com/334/334449.png",
-            "icon_url": "https://avatarfiles.alphacoders.com/334/334449.png"
-        },
-        "footer": {
-            "text": "sended from growpai",
-            "icon_url": "https://copypastatext.com/wp-content/uploads/2021/12/index-14.jpg"
-        },
-        "timestamp": "2023-02-14T17:00:00.000Z"
+        "title": "Title",
+        "description": "Description"
     }]
 }]]
 local webhook = ""
@@ -432,7 +397,7 @@ Example:
 
 Example:
 ```lua
-log(GetItemCount(2))--return dirt count 
+log(GetItemCount(2))--return dirt count in your inventory
 ```
 ## GetIteminfo
 `GetIteminfo(int id)`
