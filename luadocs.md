@@ -1,4 +1,4 @@
-# Functions
+![image](https://github.com/user-attachments/assets/41c36d90-3021-4232-ab3e-a5431d197762)# Functions
 * [SendPacket](#sendpacket)
 * [SendPacketRaw](#sendpacketraw)
 * [SendPacketRawClient](#sendpacketrawclient)
@@ -524,9 +524,9 @@ end
 
 
 ## Client Packets
-<img src="https://media.discordapp.net/attachments/1005951979400462347/1323606567051853865/image.png?ex=6775202d&amp;is=6773cead&amp;hm=438c04a0735068a98195886424c50ab8460537ff69c748be2775c91b1b4f5860&amp;=&amp;format=webp&amp;quality=lossless&amp;width=300&amp;height=421" alt="Image"/>![image](https://github.com/user-attachments/assets/58508835-60a9-44cc-8fe8-ed7ae270948a)
+[image](https://github.com/user-attachments/assets/58508835-60a9-44cc-8fe8-ed7ae270948a)
 
-<img src="https://media.discordapp.net/attachments/1005951979400462347/1323606632634122302/image.png?ex=6775203c&amp;is=6773cebc&amp;hm=c08121363015ea57d0fcc38beb4aa3f8c5ea9a6eb8efc95d8b21cc2bdccdc15b&amp;=&amp;format=webp&amp;quality=lossless&amp;width=381&amp;height=421" alt="Image"/>![image](https://github.com/user-attachments/assets/abe80fe5-429c-42f5-88b5-97a0cac09b02)
+[image](https://github.com/user-attachments/assets/abe80fe5-429c-42f5-88b5-97a0cac09b02)
 
 ## Dialog
 <img src="https://media.discordapp.net/attachments/1005951979400462347/1323606784556007515/image.png?ex=67752060&amp;is=6773cee0&amp;hm=dca090d057e971558187c8e1b47661198e484245fb0826a50274ef4d407ecbf2&amp;=&amp;format=webp&amp;quality=lossless&amp;width=202&amp;height=421" alt="Image"/>![image](https://github.com/user-attachments/assets/2b68acc8-98b3-47a5-9151-d03b839665a7)
