@@ -521,3 +521,14 @@ end
 | Number | `growth` | Item's growth |
 | Number | `rarity` | Item's rarity |
 | Number | `size` | Items list size |
+
+
+## Client Packets
+<img src="https://media.discordapp.net/attachments/1005951979400462347/1323606567051853865/image.png?ex=6775202d&amp;is=6773cead&amp;hm=438c04a0735068a98195886424c50ab8460537ff69c748be2775c91b1b4f5860&amp;=&amp;format=webp&amp;quality=lossless&amp;width=300&amp;height=421" alt="Image"/>![image](https://github.com/user-attachments/assets/58508835-60a9-44cc-8fe8-ed7ae270948a)
+<img src="https://media.discordapp.net/attachments/1005951979400462347/1323606632634122302/image.png?ex=6775203c&amp;is=6773cebc&amp;hm=c08121363015ea57d0fcc38beb4aa3f8c5ea9a6eb8efc95d8b21cc2bdccdc15b&amp;=&amp;format=webp&amp;quality=lossless&amp;width=381&amp;height=421" alt="Image"/>![image](https://github.com/user-attachments/assets/abe80fe5-429c-42f5-88b5-97a0cac09b02)
+
+## Dialog
+<img src="https://media.discordapp.net/attachments/1005951979400462347/1323606784556007515/image.png?ex=67752060&amp;is=6773cee0&amp;hm=dca090d057e971558187c8e1b47661198e484245fb0826a50274ef4d407ecbf2&amp;=&amp;format=webp&amp;quality=lossless&amp;width=202&amp;height=421" alt="Image"/>![image](https://github.com/user-attachments/assets/2b68acc8-98b3-47a5-9151-d03b839665a7)
+<img src="https://media.discordapp.net/attachments/1005951979400462347/1323606867590778980/image.png?ex=67752074&amp;is=6773cef4&amp;hm=966fd7bc89c7c51a0e9546b90f5b6791629e54951413c4f1bc03c99e52305c63&amp;=&amp;format=webp&amp;quality=lossless&amp;width=431&amp;height=421" alt="Image"/>![image](https://github.com/user-attachments/assets/ed758a8b-de26-4145-8bc7-01e7b86c0971)
+<img src="https://media.discordapp.net/attachments/1005951979400462347/1323606897592373338/image.png?ex=6775207b&amp;is=6773cefb&amp;hm=81ef877a731afd382c07547f89bbd62fbaafba25704ac06fd2e2c44671834443&amp;=&amp;format=webp&amp;quality=lossless" alt="Image"/>![image](https://github.com/user-attachments/assets/8edd8c6a-67e6-4e52-9e46-9312c9eed8a3)
+
